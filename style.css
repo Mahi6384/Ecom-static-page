@@ -281,3 +281,36 @@ fa {
   flex-basis: 18%;
 
 }
+.menu-icon{
+  width: 28px;
+  margin-left: 12px;
+}
+
+@media screen and (max-width : 732px){
+  .nav-items{
+    display: none;
+    /* position: fixed;
+    top: 0;
+    background: #ff523b;
+    width: 100%;
+    left:0;
+    right: 0;
+    height: 100vh;    
+    text-align: center; */
+  }
+  .nav-items ul{
+    display: none;
+   /* display: flex; */
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   
+  }
+  .nav-items ul li{
+    /* font-style: italic; */
+    padding: 40px;
+  }
+ 
+  }
+
+  
